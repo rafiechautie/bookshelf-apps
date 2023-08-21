@@ -2,5 +2,9 @@
 Aplikasi berbasis website yang dikembangan menggunakan HTML, CSS, dan Javascript. Aplikasi ini menggunakan local storage untuk menyimpan data
 
 
-##fitur
-[![Tonton Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=Ji8lAuohopk&list=RDCMUCkXmLjEr95LVtGuIm3l2dPg&index=4)
+## fitur
+<a href="[link_tautan_video](https://youtu.be/xmtAsuuQDt4)">
+  <img src="https://img.youtube.com/vi/xmtAsuuQDt4/default.jpg" alt="Keterangan Gambar Miniatur" style="max-width: 100%;">
+</a>
+
+
