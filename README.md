@@ -3,7 +3,7 @@ An HTML, CSS, and Javascript-based website application. This application utilize
 
 
 ## Preview Application
-[![Watch the video](https://img.youtube.com/vi/xmtAsuuQDt4/hqdefault.jpg)](https://youtu.be/xmtAsuuQDt4){:target="_blank"}
+[![Watch the video](https://img.youtube.com/vi/xmtAsuuQDt4/hqdefault.jpg)](https://youtu.be/xmtAsuuQDt4)
 
 ## Features
 <ol>
