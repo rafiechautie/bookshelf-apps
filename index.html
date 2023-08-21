@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf Apps</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        Bookshelf Application
+    </header>
+    <main>
+        <section class="input_section">
+            <h2 class="title-section text-center">Add New Book</h2>
+            <form action="" class="form-add" id="form-add">
+                <div class="form-group">
+                    <label for="book-title">Book</label>
+                    <input 
+                        type="text"
+                        id="book-title"
+                        name="book-title"
+                        class="book-title"
+                        placeholder="Marmut Merah Bambu"
+                        
+                        >
+                </div>
+                <div class="form-group">
+                    <label for="book-author">Author</label>
+                    <input 
+                        type="text"
+                        id="book-author"
+                        name="book-author"
+                        class="book-author"
+                        placeholder="Raditya Dika"
+                        >
+                </div>
+                <div class="form-group">
+                    <label for="release-year">Release Year</label>
+                    <input 
+                        type="number"
+                        id="release-year"
+                        name="release-year"
+                        class="release-year"
+                        placeholder="2008"
+                        min="1900"
+                        max="2099"
+                        step="1"
+                        >
+                </div>
+                    <div class="form-group-inline">
+                        <input 
+                            type="checkbox"
+                            id="isComplete"
+                            class="isComplete"
+                            name="isComplete">
+                        <label for="isComplete">Finished</label>
+                    </div>
+                <button id="bookSubmit" type="submit">Add book to the shelf </button>
+            </form>
+        </section>
+        <section class="search_section">
+            <h2 class="title-section text-center">Search Your Book</h2>
+            <form action="" id="search-form">
+                <input 
+                    type="text"
+                    name="input-search"
+                    id="input-search"
+                    class="input-search"
+                    placeholder="input book title">
+                <button type="submit" id="searchSubmit">Cari</button>
+            </form>
+        </section>
+        <section class="summary-books-count">
+            <h3 class="title-section text-center">Summary</h3>
+            <div class="book-counts">
+                <span id="uncompleted-count">0</span> Unfinished Books
+                <span id="completed-count">0</span>Finished Books
+            </div>
+        </section>
+        <section class="book_self">
+            <h3 class="title-section text-center">Unfinished Read</h3>
+            <div class="book_list" id="uncompleted-books">
+                <!-- <article class="book_item">
+                    <h4 class="text-book">Book Title</h4>
+                    <p class="text-book">Penulis: John Doe</p>
+                    <p class="text-book">Tahun: 2002</p> 
+                    <div class="action">
+                        <button class="green">Selesai dibaca</button>
+                        <button class="red">Hapus buku</button>
+                    </div>
+                </article> -->
+            </div>
+            <div class="search-results" id="uncompleted-search-results"></div>
+        </section>
+        <section class="book_self">
+            <h3 class="title-section text-center">Finished Read</h3>
+            <div class="book_list" id="completed-books">
+                <!-- <article class="book_item">
+                    <h4 class="text-book">Book Title</h4>
+                    <p class="text-book">Penulis: John Doe</p>
+                    <p class="text-book">Tahun: 2002</p> 
+                    <div class="action">
+                        <button class="green">Selesai dibaca</button>
+                        <button class="red">Hapus buku</button>
+                    </div>
+                </article> -->
+            </div>
+            <div class="search-results" id="completed-search-results"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Belajar Membuat Front-End Web untuk Pemula &#169; 2019, Dicoding Academy</p>
+      </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

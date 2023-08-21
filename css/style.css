@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Quicksand:wght@500;700&display=swap');
+
+/* css reset  */
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+header{
+    background: #0c3a6c;
+    color: whitesmoke;
+    padding: 16px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.input_section{
+    /* width: 80%; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-add{
+    width: 100%;
+
+}
+
+.input_section > form > .form-group{
+    margin: 8px 0;
+}
+
+.input_section > form > button{
+    background-color: #0c3a6c;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    /* display: block; */
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.input_section > form > .form-group > input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    display: block;
+    border: 1px solid gray;
+}
+
+.input_section > form > .form-group > label {
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+.input_section > form > .form-group-inline {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.input_section > form > .form-group-inline > label{
+    color: cornflowerblue;
+    font-weight: bold;
+    
+}
+
+.search_section{
+    /* width: 80%; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search_section > form {
+    padding: 16px;   
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 10px;
+}
+
+.search_section > form > .input-search{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+
+.search_section > form > button{
+    background-color: #0c3a6c;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.title-section{
+    color: #0c3a6c;
+}
+.summary-books-count{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+}
+
+.book-counts {
+    display: flex;
+    align-items: center;
+}
+
+.book-counts span {
+    margin: 0 10px;
+}
+
+#uncompleted-count {
+    color: red;
+    font-weight: bold;
+}
+
+#completed-count {
+    color: green;
+    font-weight: bold;
+}
+
+.book_self{
+    /* width: 80%;   */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 2rem auto;
+}
+
+
+
+.book_self > .book_list > .book_item > .action > button {
+    border: 0;
+    padding: 5px;
+    margin: 0 5px 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book_self > .book_list > .book_item > .action > .green {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+}
+
+.book_self > .book_list > .book_item > .action > .red {
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+}
+
+.book_self > .book_list > .book_item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.book_self > .book_list > .book_item > .action {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex; /* Menggunakan display flex untuk tombol */
+    gap: 5px; /* Jarak antara tombol */
+}
+
+.text-book{
+    margin: 2px 5px;
+}
+
+.book_self > h3{
+    margin: 5px;
+}
+
+footer{
+    padding: 20px;
+    background-color: #0c3a6c;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
